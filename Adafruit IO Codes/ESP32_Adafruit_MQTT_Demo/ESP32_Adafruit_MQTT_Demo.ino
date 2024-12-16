@@ -72,7 +72,7 @@ void setup()
   mqtt.subscribe(&light);
 }
 
-int x = 0;
+uint32_t x = 0;
 
 void loop()
 {
